@@ -24,6 +24,7 @@ Create a Custom User model(Feel free to give the model any name you wish) in dja
 	- Email
 
 Use ModelViewSet for all CRUD operations. At the end of the assignment we should be able to perform the CRUD operation using the URLs exposed by the service. Use a django pre save signal or a DB trigger to hash the password before saving the password
+
 Note: Do not extend or use the default django User model. You can use a SQL DB of your choice
 
 
